@@ -1,0 +1,18 @@
+Link para download do Git: https://git-scm.com/downloads
+
+O Git Bash é um terminal extendido para otimizar o uso do Git.
+
+Comandos:
+
+git init -> ínicia um repositório.
+
+git add "arquivo" ->  adicionar um arquivo ao repositório.
+
+git commit -m "mensagem" -> faz o commit.
+
+git status -> verifica o status de manipulação do diretório.
+
+git push origin main -> Para colocar no repositório remoto. O main é o branch
+
+//Para clonar um repositório
+Exemplo "git clone https://github.com/Tautorn/introduction-reactjs.git"
