@@ -2,7 +2,15 @@ Link para download do Git: https://git-scm.com/downloads
 
 O Git Bash é um terminal extendido para otimizar o uso do Git.
 
+flags:
+ls -a => para listas arquivos ocultos.
+
 Comandos:
+git config --global user.email "osnynt@gmail.com" => Cria email do autor do repositorio.
+
+git config --global user.name Osny Neto=> Cria autor do repositorio.
+//para corrigir configuração do email e nome
+git config --global unset {user.email} ou {user.name}
 
 git init -> ínicia um repositório.
 
@@ -13,6 +21,12 @@ git commit -m "mensagem" -> faz o commit.
 git status -> verifica o status de manipulação do diretório.
 
 git push origin main -> Para colocar no repositório remoto. O main é o branch
+
+git config --list => retorna lista de configurações
+
+git remote add origin {link do repositório} => aponta a máquina local ao github
+
+git remote -v => lista repositórios remotos cadastrados
 
 //Para clonar um repositório
 Exemplo "git clone https://github.com/Tautorn/introduction-reactjs.git"
